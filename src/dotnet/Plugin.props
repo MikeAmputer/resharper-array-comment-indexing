@@ -1,0 +1,20 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <!-- See https://www.nuget.org/packages/JetBrains.ReSharper.SDK -->
+    <!-- Keep in sync with ProductVersion in gradle.properties -->
+    <SdkVersion>2024.2.4</SdkVersion>
+
+    <Title>Array Comment Indexing</Title>
+    <Description>Adds /*index*/ comments before each element in a C# array initializer</Description>
+
+    <Authors>Pavel Kravtsov</Authors>
+    <Copyright>Copyright $([System.DateTime]::Now.Year) Maintainers of ArrayCommentIndexing</Copyright>
+    <PackageTags>resharper plugin</PackageTags>
+
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageIconUrl></PackageIconUrl>
+  </PropertyGroup>
+
+</Project>
