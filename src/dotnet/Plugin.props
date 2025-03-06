@@ -12,8 +12,8 @@
     <Copyright>Copyright $([System.DateTime]::Now.Year) Maintainers of ArrayCommentIndexing</Copyright>
     <PackageTags>resharper plugin</PackageTags>
 
-    <PackageProjectUrl></PackageProjectUrl>
-    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/MikeAmputer/resharper-array-comment-indexing</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/MikeAmputer/resharper-array-comment-indexing/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl></PackageIconUrl>
   </PropertyGroup>
 
