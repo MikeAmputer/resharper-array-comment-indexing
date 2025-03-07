@@ -20,6 +20,8 @@ val ProductVersion: String by project
 val DotnetPluginId: String by project
 val RiderPluginId: String by project
 val PublishToken: String by project
+val SinceRiderBuild: String by project
+val UntilRiderBuild: String by project
 
 allprojects {
     repositories {
@@ -164,6 +166,8 @@ tasks.patchPluginXml {
     // changeNotes.set(changelogMatches.map {
     //     it.groups[1]!!.value.replace("(?s)\r?\n".toRegex(), "<br />\n")
     // }.take(1).joinToString())
+    sinceBuild.set("${SinceRiderBuild}")
+    untilBuild.set("${UntilRiderBuild}")
 }
 
 tasks.prepareSandbox {
