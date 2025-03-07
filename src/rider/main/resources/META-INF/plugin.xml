@@ -8,24 +8,7 @@
 
   <description>
 <![CDATA[
-Adds <code>/*index*/</code> comments before each element in a C# array initializer, making it easier to track indexed placeholders for string.Format().<br><br>
-
-<b>Example:</b>
-<br>
-<pre><code>
-const string offerTemplate = @"Hello, {0}!
-Here is your personal offer: buy {1} {2} - get {3} {2}.";
-
-var args = new object[]
-{
-    /*0*/ user.GetPresentationName(locale),
-    /*1*/ offer.BuyAmount.GetPresentationView(locale),
-    /*2*/ offer.GetProductName(locale),
-    /*3*/ offer.GetAmount.GetPresentationView(locale)
-};
-
-var text = string.Format(offerTemplate, args);
-</code></pre>
+Adds <code>/*index*/</code> comments before each element in a C# array initializer via Context Actions menu (Alt+Enter), making it easier to track indexed placeholders for string.Format().
 ]]>
   </description>
 
