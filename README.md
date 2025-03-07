@@ -13,7 +13,7 @@ Sometimes you have to use indexed placeholders with `string.Format()` and [you a
 3. Select `Add Index Comments to Array Elements` to annotate the array with index comments.
 4. To update indexes, run the action again.
 
-## Build:
+## Build
 Run `./gradlew buildPlugin` from the solution root directory. The `output` directory will contain two files:
 - `.nupkg` for ReSharper
 - `.zip` for Rider.
