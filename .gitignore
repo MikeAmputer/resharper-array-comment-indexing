@@ -21,3 +21,6 @@ output
 .vs
 _ReSharper*
 _dotTrace*
+
+JetBrains*.log
+ReSharper*.log
