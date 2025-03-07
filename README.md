@@ -5,7 +5,7 @@
 
 <img src="https://github.com/MikeAmputer/resharper-array-comment-indexing/blob/master/img/example.png" alt="Code example" title="Code example" width="512">
 
-Sometimes you have to use indexed placeholders with `string.Format()` ([you are not alone](https://github.com/dotnet/runtime/discussions/100259)). Keeping track of array element positions can be difficult. This plugin helps maintain clarity by adding and updating index comments via Context Actions.
+Sometimes you have to use indexed placeholders with `string.Format()` and [you are not alone](https://github.com/dotnet/runtime/discussions/100259). Keeping track of array element positions can be difficult. This plugin helps maintain clarity by adding and updating index comments via Context Actions.
 
 ## Getting Started
 1. Install the plugin from the JetBrains Marketplace (an IDE restart may be required).
