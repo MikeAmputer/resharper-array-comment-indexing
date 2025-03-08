@@ -1,7 +1,7 @@
 # ArrayCommentIndexing for Rider and ReSharper
 
 [![Rider](https://img.shields.io/jetbrains/plugin/v/com.github.mikeamputer.arraycommentindexing.svg?label=Rider&colorB=0A7BBB&style=for-the-badge&logo=rider)](https://plugins.jetbrains.com/plugin/26764-array-comments-indexing)
-[![ReSharper](https://img.shields.io/jetbrains/plugin/v/ReSharperPlugin.ArrayCommentIndexing.svg?label=ReSharper&colorB=0A7BBB&style=for-the-badge&logo=resharper)](https://plugins.jetbrains.com/plugin/26757-array-comment-indexing)
+[![ReSharper](https://img.shields.io/resharper/v/ReSharperPlugin.ArrayCommentIndexing.svg?label=ReSharper&colorB=0A7BBB&style=for-the-badge&logo=resharper)](https://plugins.jetbrains.com/plugin/26757-array-comment-indexing)
 
 Sometimes you have to use indexed placeholders with `string.Format()` and [you are not alone](https://github.com/dotnet/runtime/discussions/100259). Keeping track of array element positions can be difficult. This plugin helps maintain clarity by adding and updating index comments via Context Actions.
 
